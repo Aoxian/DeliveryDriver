@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class Delivery : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision2D)
     {
@@ -9,6 +9,9 @@ public class Collision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        Debug.Log($"{this.gameObject.name} passed trough {collider2D.gameObject.name} trigger.");
+        if (collider2D.tag == "Package")
+        {
+            Debug.Log($"Picked up package: {collider2D.gameObject.name}");
+        }
     }
 }
