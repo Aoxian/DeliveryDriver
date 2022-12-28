@@ -9,9 +9,7 @@ public class Delivery : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collider2D.tag == "Package")
-        {
-            Debug.Log($"Picked up package: {collider2D.gameObject.name}");
-        }
+        if (collider2D.tag == "Package") Debug.Log($"Picked up package: {collider2D.gameObject.name}");
+        if (collider2D.tag == "Customer") Debug.Log($"Visited the customer: {collider2D.gameObject.name}");
     }
 }
