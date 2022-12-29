@@ -13,8 +13,12 @@ For now, we are just running the game from within Unity, using the [Game view][5
 ## Testing
 No testing at this time; following a tutorial, we may not get to it. If this was an actual project, you bet there would be tests.
 
+## Demo
+A demo of the game running in [Unity][3] can be found here: [Delivery Driver Demo][6]
+
 [1]: https://www.gamedev.tv/
 [2]: https://www.gamedev.tv/p/unity-2d-game-dev-course-2021
 [3]: https://unity.com/download
 [4]: https://code.visualstudio.com/download
 [5]: https://docs.unity3d.com/Manual/GameView.html
+[6]: https://www.youtube.com/watch?v=RCSzHiCKeUA
